@@ -34,6 +34,7 @@
 </head>
 
 <body>
+
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="check2" viewBox="0 0 16 16">
             <path
@@ -116,10 +117,10 @@
                             <a class="nav-link" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">People</a>
+                            <a class="nav-link" href="people.html">People</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="event.html">Event</a>
+                            <a class="nav-link active" href="event.html">Event</a>
                         </li>
                         <!-- <li class="nav-item">
                             <a class="nav-link disabled">Disabled</a>
@@ -137,120 +138,65 @@
     <main>
         <section class="py-5 text-center container">
             <div class="row py-lg-1">
-              <div class="col-lg-6 col-md-8 mx-auto">
-                <h1 class="fw-normal">DST Center for Policy Research</h1>
-                
-                <!-- <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p> -->
-                <!-- <p>
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-normal">DST Center for Policy Research</h1>
+
+                    <!-- <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p> -->
+                    <!-- <p>
                   <a href="#" class="btn btn-primary my-2">Main call to action</a>
                   <a href="#" class="btn btn-secondary my-2">Secondary action</a>
                 </p> -->
-              </div>
-              <div>
-                <h3 class="fw-light">National Institute of Science Education Research (NISER)</h3>
-                <h2 class="fw-light">People</h2>
-              </div>
+                </div>
+                <div>
+                    <h3 class="fw-light">National Institute of Science Education Research (NISER)</h3>
+                </div>
             </div>
-          </section>
-
-          <hr>
+        </section>
 
 
-        <!-- Marketing messaging and featurettes
-  ================================================== -->
-        <!-- Wrap the rest of the page in another container to center all the content. -->
+        <div class="container py-4">
+            <header class="pb-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center text-body-emphasis text-decoration-none">
+                    <span class="fs-4">Talks</span>
+                </a>
+            </header>
 
-        <div class="container marketing">
+            <div class="row align-items-md-stretch">
+                <!-- <div class="col-md-6">
+                    <div class="h-100 p-5 text-bg-dark rounded-3">
+                        <h2>Change the background</h2>
+                        <p>Swap the background-color utility and add a `.text-*` color utility to mix up the jumbotron
+                            look. Then, mix and match with additional component themes and more.</p>
+                        <button class="btn btn-outline-light" type="button">Example button</button>
+                    </div>
+                </div> -->
+                <div class="col-md-6">
+                    <img src="talk/colloquy1.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-body-tertiary border rounded-3">
+                        <h2>Colloquy#1 : Dr. Gopal K Sarangi</h2>
+                        <p>TERI School of Advanced Studies, New Delhi <br>
+                        Unpacking India's Energy Transition and its Complexities</p>
+                        
+                        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-date" viewBox="0 0 16 16">
+                            <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"/>
+                            <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                          </svg> September 18, 2023</p>
+                          <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                            <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                          </svg> 3:30 - 5:00pm</p>
+                          <a href="https://meet.google.com/ojg-ntrz-hxp" class="btn btn-info" role="button">Google Meet</a>
+                        
+                    </div>
+                </div>
+            </div>
 
-            <!-- Three columns of text below the carousel -->
-            <div class="row">
-                <div class="col-lg-4">
-                    <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                    </svg> -->
-                    <img src="people/photo/amarendra.jpg" class="rounded-circle" width="140" height="140"> 
-                    <h2 class="fw-normal">Dr. Amarendra Das</h2>
-                    <p>(Principal Investigator) Reader-F, School of Humanities & Social Sciences, NISER</p>
-                    <p><a class="btn btn-secondary" href="https://www.niser.ac.in/users/amarendra">Personal website &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <!-- <svg xlink:href="people/photo/amarendra.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false" >
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                    </svg> -->
-                    <img src="people/photo/smishra.jpg" class="rounded-circle" width="140" height="140"> 
-                    <h2 class="fw-normal">Dr. Subhankar Mishra</h2>
-                    <p>Reader-F, School of Computer Sciences, NISER</p>
-                    <p><a class="btn btn-secondary" href="https://www.niser.ac.in/~smishra/index.html">Personal Website &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-4">
-                    <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                    </svg> -->
-                    <img src="people/photo/pranay.jpg" class="rounded-circle" width="140" height="140"> 
-                    <h2 class="fw-normal">Dr. Pranay Swain</h2>
-                    <p>Associate Professor, School of Humanities & Social Sciences, NISER</p>
-                    <p><a class="btn btn-secondary" href="https://www.niser.ac.in/users/pranay">Personal Website &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-            <div class="row">
-                <div class="col-lg-3">
-                    <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                    </svg> -->
-                    <img src="people/photo/Saudamini-das.jpg" class="rounded-circle" width="140" height="140"> 
-                    <h2 class="fw-normal">Prof. Saudamini Das</h2>
-                    <p>Visiting Fellow, Institute of Economic Growth</p>
-                    <p><a class="btn btn-secondary" href="https://iegindia.org/team/saudamini-das/">Personal Website &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3">
-                    <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-                    </svg> -->
-                    <img src="people/photo/gopal.jpg" class="rounded-circle" width="140" height="140"> 
-                    <h2 class="fw-normal">Dr. Gopal Sarangi</h2>
-                    <p>Assistant Professor, Teri School of Advanced Studies</p>
-                    <p><a class="btn btn-secondary" href="https://www.terisas.ac.in/faculty.php?id=34">Personal Website &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3">
-                    <img src="people/photo/chandrabahinipati.jpg" class="rounded-circle" width="140" height="140"> 
-                    <h2 class="fw-normal">Dr. Chandra Sekhar Bahinipati</h2>
-                    <p>Assistant Professor, Humanities and Social Sciences, IIT Tirupati</p>
-                    <p><a class="btn btn-secondary" href="https://iittp.ac.in/dr-chandra-sekhar-bahinipati#">Personal Website &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="col-lg-3">
-                    <img src="people/photo/bibhunandini.jpeg" class="rounded-circle" width="140" height="140"> 
-                    <h2 class="fw-normal">Dr. Bibhunandini Das</h2>
-                    <p>Assistant Professor, Department of Economics, Berhampur University</p>
-                    <p><a class="btn btn-secondary" href="https://www.buodisha.edu.in/?p=deptcontent&dept=25&pg=11">Personal Website &raquo;</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-
-
-            
-
-        </div><!-- /.container -->
-
-
-        <!-- FOOTER -->
-        <footer class="container">
-            <p class="float-end"><a href="#">Back to top</a></p>
-            <p>&copy; National Institute of Science Education and Research</p>
-        </footer>
+            <!-- FOOTER -->
+            <footer class="pt-3 mt-4 text-body-secondary border-top">
+                &copy; National Institute of Science Education and Research, 2023
+            </footer>
     </main>
 
 
@@ -259,4 +205,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
